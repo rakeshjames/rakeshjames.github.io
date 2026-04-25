@@ -1,0 +1,461 @@
+﻿Drupal Badge resume.png 
+
+Rakesh James
+Mobile: +447380804640
+Northwich, CW9 7XR
+rakeshjames20@gmail.com
+
+
+
+
+
+
+
+
+Technical Profile
+Senior PHP and Drupal Architect with 17+ years of experience building enterprise-grade web platforms using Drupal (6–11), Symfony, and Laravel. A recognized contributor in the open-source community, I specialize in architecting scalable, performant, and secure Drupal solutions, including headless and decoupled implementations using React, Vue.js, Next.Js and Flutter.
+
+
+Expert in Symfony-based architecture, RESTful APIs, Google Apigee, and third-party integrations. Proven track record in delivering complex site migrations, AI-powered applications with Python and TensorFlow, and DevOps-driven deployments on Acquia, Azure, and AWS.
+
+
+A natural team leader and mentor, I have built and led high-performing development teams, contributed 15+ modules to Drupal.org, and ranked in the top 30 global Drupal contributors. Passionate about open source, emerging tech, and driving digital transformation through clean, modular architecture.
+
+Drupal.org: https://www.drupal.org/u/rakeshgectcr  (Top 30 global contributor – 2015 to 2017)
+
+
+Skills & Expertise
+
+
+* PHP Development: 17+ years with Drupal (6–11), Laravel, and Symfony; strong in OOP, services, and modular architecture.
+* Drupal Expert: Custom module/theme (Paragraph/SDC - Components) dev, performance tuning, headless builds, complex upgrades, and migrations.
+* Frontend & Headless: React, Vue.js, Flutter, SASS, Tailwind, Storybook; expert in component-driven UIs.
+* API & Microservices: REST, JSON:API, SOAP; Google Apigee, Stripe, Ping ID, Azure Entra ID.
+* AI & Python: Built ML tools using Python, TensorFlow, Pandas, Flask; integrated Solr pipelines.
+* Search & Data: Apache Solr, Elasticsearch, structured data (JSON-LD).
+* Cloud & Infrastructure: Azure, AWS, Pantheon, Acquia, Docker, DDEV, Kubernetes, GCP  
+* Security & Delivery: Cloudflare, Akamai, Zeus routing, Azure Application Gateway, Entra ID, Ping ID  
+* Community & Leadership: Top 30 Drupal.org contributor, team lead, trainer, open-source advocate.
+
+
+
+
+EMPLOYMENT SUMMARY
+
+
+DrupalAmico Limited - Self Employed Consultant                                           Nov 2021 - Present                       
+Senior Drupal Developer | Nov 2021 – Present
+Operating as an independent Drupal consultant, I have delivered strategic and technical solutions for high-profile clients across pharma, public sector, and global digital agencies. My engagements span greenfield builds, complex migrations, and scalable headless architectures using modern front-end frameworks and DevOps practices.
+
+* Stratusmeridian (4 months - Contract)
+ Developed a custom Apigee Developer Portal to support API discovery and onboarding.
+   * Delivered a consistent and secure user experience aligned with developer workflows and CI/CD pipelines.
+   * Tribal Worldwide / Omnicom Group (9 months- Contract)
+ Architected a flexible Drupal 10 platform for consolidating 30+ brand sites.
+      * Built reusable components and workflows from Figma designs using Tailwind CSS, Gulp, Pattern Lab, and Storybook.
+      * Supported BAU and enhancements across 45 brand properties spanning Drupal 6 to 10.
+      * Imperial War Museum (20 months- Contract)
+ Led critical compliance and upgrade work across public and internal platforms.
+         * Upgraded the main website from Drupal 8 to 10, including security patching for Cyber Essentials compliance.
+         * Delivered a React-based internal knowledge search app; migrated platforms to Solr 8 and Elasticsearch 8.
+         * Implemented a fully responsive theme using modern SASS workflows.
+
+            * Huumun (6 months - Contract)
+ Delivered a greenfield digital platform for a new pharmaceutical brand.
+               * Translated InVision design specs into a scalable Drupal 9+ build with Vue.js, Gulp, and SASS.
+               * Collaborated closely with the PM to define epics, estimate sprints, and manage backlog delivery.
+
+
+
+
+Born Group (Tech Mahindra).                                                                          April 2021 - Nov 2021                                  
+Drupal Lead / Architect
+Responsibilities:
+               * Senior Drupal Developer
+               * Provided solutions for complex implementations. 
+               * Lead the EMEA CMS team.
+               * Digital solution lead. 
+
+
+
+
+
+Access.                                                                                                              Aug 2018 - March 2021
+Senior Developer
+Responsibilities:
+               * Architect and Collaborate with the team, deliver small projects and Integrate with the more significant projects.
+               * Lead initiator of Drupal contributions.
+               * Stripe payment API upgrade and integrations.
+               * Integrate third-party APIs into Drupal.
+               * Learn and share the knowledge of new tech stacks like React and Flutter
+SID Global Solutions                                                                                            Oct 2018 - JUL 2019
+Senior Developer Portal Developer / Digital Architect
+Responsibilities:
+               * Lead developer portal implementations.
+               * Train and enable the team members in Drupal and Apigee Developer portal, 
+
+
+CTI Digital                                                                                                         Jan 2018 -  Sep 2018
+Developer 
+Responsibilities:
+               * Working as a backend developer with Drupal 7 and 8 versions, 
+
+
+Valuebound Inc                                                                                                   Jul 2015 - Dec 2018
+Senior Drupal Consultant / Drupal Architect
+Responsibilities:
+               * Drupal Architect, Lead Developer, Trainer, Drupal Core, Module contributor, Speaker, Blogger, Author
+ 
+Red Crackle, Bangalore                                                           Nov 2014 - June 2015
+Senior Developer
+Responsibilities:
+               * Worked as an individual contributor, Solution Architect and Blog Author
+
+
+SourceN, Bangalore                                                                    Dec 2013 -Oct 2014
+Lead Developer
+Responsibilities:
+               * Architect, Lead and delivery
+
+
+3ICube Technologies, Bangalore                                                   Mar 2011 - Dec 2013
+Drupal Lead
+Responsibilities:
+               * Recruit, train and lead a successful Drupal team
+
+
+Renfos Technologies, Cochin                                                          Nov 2008 – Nov 2010
+Software Programmer
+Responsibilities:
+               * Developed numerous web applications
+
+
+
+
+
+
+Project Portfolio
+
+
+Royalmail (https://www.royalmail.com/)
+Role:                 Lead Developer / Drupal Architect
+Team Size:        9
+Duration:           5 Months
+Environment:        Drupal  10, AZURE
+Database:        MySQL
+Description:        Royal Mail is the primary postal service in the UK, delivering letters and parcels to over 31 million addresses six days a week. This is Drupal 9 to 10 upgrade project, along with REACT upgrade to version 19.  
+
+
+Contributions: 
+               * REACT applications upgrade from 11  to version 19, 
+               * https://www.royalmail.com/track-your-item, 
+               * https://www.royalmail.com/services-near-you#/ 
+               * Drupal 9 to 10 upgrade
+               * Camel API Integration
+               * CIAM integration (EntraID)
+
+
+
+
+
+
+WaterAid (https://www.wateraid.org/)
+Role:                 Senior  Developer 
+Team Size:        5
+Duration:          Ongoing project - with 17 websites
+Environment:        Drupal  10, ACSF
+Database:        MySQL
+Description:        WaterAid is an international non-governmental organisation focused on water,      sanitation and hygiene. 
+
+
+Contributions: 
+               * Custom Stripe SCA Integration with webform + Payment integration
+               * Google Structure data JSON+LD for FAQ page
+               * Update the 15 websites and maintain - business as Usual 
+               * Multilingual and multisite
+               * Headless implementation - Micro Sites in REACT
+               * Theme upgrade + Storybook integration.
+
+
+Imperial War Museum - Cyber essential  (https://www.iwm.org.uk/ )
+Role:                 Backend Developer
+Team Size:        4
+Duration:            6 months
+Environment:        Rack space to Azure cloud migration
+Database:        MySQL
+Search:              Solr 6 and 8
+Description:        Cyber essential project is to upgrade the Drupal 8 application to the Drupal 9 application with a PHP version upgrade and an upgrade to Solr version 6 to 8. 
+Contributions: 
+               * 8 to 9 upgrades, Including core, contrib and custom module
+               * Solr Upgrade from 6 to 8, and rewrite the custom Solr search module to Drupal 9.
+               * https://www.k-int.com/ Integration
+
+
+
+RoyalMail Parcelforce (https://www.parcelforce.com/ )
+Role:                 Senior developer
+Team Size:        5
+Duration:            6 months
+Environment:        (Ensono, Azure)
+Tech Stack:      Php (Drupal 7 to Drupal 10 migration), MySQL, Azure Bing Search, Azure Entra ID
+Description:      Migrate the Drupal 7 version of the site into Drupal 10 in Azure cloud.
+Contributions:
+                  * Led the Development for  Drupal migration from version 7 to Drupal 10
+                  * Developed the Custom Migration source and Process plugins.
+                  * Drupal 7 Panels to Drupal 10 Layout builder with Paragraphs migration.
+                  * Images to Media entity migration.
+                  * Field Collection to Paragraphs migration. 
+                  * Azure Entra ID integration for the Content Editors.
+                  * Azure Bing Search integration.
+                  * Azure MySQL, Entra ID integration.
+
+
+
+
+
+
+AutoZone Developer portal (https://apigeedevportal.autozone.com/ )
+Role:                 Lead developer
+Team Size:        7
+Duration:            5 months
+Environment:        Google Cloud Platform(GCP)
+Tech Stack:      Google Apigee, Drupal 11, Kubernetes, Ping ID, JIRA API
+Description:      Developed the Apigee Developer Portal for the AutoZone Group, enabling seamless API proxy management and developer onboarding.
+Contributions: 
+                  * Implementing API proxy creation through a CI/CD pipeline.
+                  * Automating JIRA ticket creation for API proxies with email notifications.
+                  * Enabling Developer App and Team App creation via the CI/CD process.
+                  * Integrating Ping ID authentication.
+                  * Automating Ping ID authentication creation through CI/CD.
+                  * Implementing JIRA ticket creation for Ping ID authorization requests with email notifications.
+Hero- Remediated Platform
+Role:                 Senior developer
+Team Size:        3
+Duration:            3 months
+Environment:        AWS
+Database:        MySQL
+Search:             Apache Solr
+Description:        Led developing and deploying a comprehensive multilingual and multisite web solution for Schwartau, a renowned jam product line under the Hero Group. The project aimed to enhance the brand's digital presence across various international markets.
+Contributions: 
+                  * End-to-end delivery encompasses the entire process from capturing technical requirements from Figma designs to developing and deploying the final product in the production environment
+                  * Led the upgrade and integration of the existing platform to the new Information Architecture Framework (IAF) using Drupal.
+                  * Orchestrated the development of default functionalities including content management for articles, products, and recipes, tailored to brand-specific needs.
+                  * Designed a highly flexible, taxonomy-based search functionality to facilitate easy navigation and enhanced user engagement.
+                  * Collaborated with multiple stakeholders to ensure that the platform aligns with the strategic marketing and digital presence goals of the Hero Group.
+
+
+
+
+Hero-Schwartau (https://www.schwartau.de/ )
+Role:                 Senior developer
+Team Size:        4
+Duration:            3 months
+Environment:        AWS
+Database:        MySQL
+Search:             Apache Solr
+Description:        Developed and deployed a comprehensive multilingual and multisite web solution for Schwartau, a renowned jam product line under the Hero Group. The project aimed to enhance the brand's digital presence across various international markets.
+Contributions: 
+                  * Full Drupal 9/10  both backend and front-end development for these multi-sites.
+                  * PriceSpider SKU integration
+                  * Ensured the creation of a user-friendly interface that supports multiple languages, enhancing accessibility and customer engagement globally.
+
+Hero-Organix(https://www.organix.nl/,https://www.organix.com/,https://organix.fi,https://organix.no, https://organix.se)
+Role:                 Senior Developer
+Team Size:        4
+Duration:            3 months
+Environment:        AWS
+Database:        MySQL
+Search:              Elasticsearch
+Description:        The Organix website features a campaign to educate families about nutritious and delicious food choices for children. This initiative includes an interactive digital wallchart, available for free download, introducing a wide range of healthy flavours and textures.
+Contributions: 
+                     * Full Drupal 9 backend and frontend development for these multi-sites.
+                     * PriceSpider SKU integration
+
+
+
+
+
+
+WHO GINA (https://extranet.who.int/nutrition/gina/en/)
+Role:                 Lead Architect
+Team Size:        15
+Duration:            Ongoing project -  Drupal 7 to 9 Migration
+Environment:        Drupal  7, and Drupal 9 
+Database:        MySQL
+Description:        The Global Database on the Implementation of Nutrition Action (GINA) is an interactive web-based platform for sharing information on policies, actions, mechanisms and commitments related to nutrition by the World Health Organization. 
+
+
+Contributions: 
+                     * Full Architectural solutions 
+                     * Integration with XMART DB and Drupal 
+                     * Power BI integration with Drupal and XMART DB
+                     * Drupal 7 to 9 migrations.
+
+
+
+
+Dev portal (Ferguson Developer Portal)
+Role:                 Lead Developer 
+Team Size:        14
+Duration:           9 months
+Environment:        Drupal  7,  Apigee Developer Portal
+Database:        MySQL
+Description:        Ferguson developer portal will allow developers to easily interface with Ferguson via a single, centralised point of entry, securely sign in, access, and use a wide variety of Enterprise APIs to support business transactions not 
+Contributions:
+                     * Apigee Developer portal configuration and customisation
+                     * Single Sign-On Implementation with ADP. 
+                     * Customised Swagger UI. 
+                     * CI/CD Configurator module
+translations
+Store (Cypress Semiconductor Store)
+Role:                 Sr Developer and Delivery Lead
+Team Size:        5
+Duration:           7 months
+Environment:        Drupal  8, Commerce 2.x [Acquia]
+Database:        MySQL
+Description:        The Cypress Store project is an e-commerce store which sells and ship Cypress semiconductor products like ICs and kits to anywhere in the world except North Korea. 
+Contributions:
+                        * Migration from the Legacy Store, which was built on Adobe ColdFusion.
+                        * Single Sign-On Implementation
+                        * Contributed a couple of patches to Commerce 2.x ()
+                        * Custom Checkout flow
+                        * Custom Packer
+
+
+Extranet (Cypress Semiconductor Extranet)
+Role:                 Developer and Delivery Lead
+Team Size:        4
+Duration:           5 months
+Environment:        Drupal  8 [Acquia]
+Database:        MySQL
+Description:        The Cypress Extranet project is an extranet portal for Sales Representatives and Distributors. It acts as a “one-stop shop” for them. Users expect access to all the most recently valued marketing files (from the Cypress SPEC System). The site should have easy search and download options, which should be accessible anywhere, anytime on the road, or easily while at a conference.
+
+
+Contributions:
+                        * Migration content from the Legacy system, which was built on Adobe ColdFusion.
+                        * Single Sign-On Implementation
+                        * Implemented role-based page access.
+                        * SOAP API Integration with Oracle System using Web method.
+                        * Contributed of a couple of modules (Page Access, Drush Delete All, Entity Reference Tab / Accordion Formatter, Download all files, Broken Link)
+
+
+NVLI (National Virtual Library of India)
+Role:                 Senior Lead Developer 
+Team Size:        14
+Environment:        Drupal  8 [Virtual Library software]
+Database:        MySQL
+Description:        Research, academics and also general users from various sectors depend more on digital information today. Corresponding to this demand, an increasing amount of digitised data and services based on such data are being initiated.
+
+
+Contributions:
+                        * Drupal 8 Custom Solr Search.
+                        * Harvesting the Data from OAI-PMH
+                        * Wrote Custom Config Entities in Drupal 8. 
+                        * Drupal 8 custom module development.
+
+
+
+
+Time Magazines (https://time.com/)
+Role:                 Lead Developer 
+Team Size:        8
+Environment:        Drupal  8 [Media Platform Development]
+Database:        MySQL
+Description:        Developed a common platform for Content Authors, Editors, Publishers, Traders and Developers. So that the content can create, Edit, Published and sell or reuse from the same platform.  This also eases the onboarding process of new team members to the distributed development team.
+
+
+Contributions:
+                        * Drupal 8 training for other team members.
+                        * D8 installation profile development. 
+                        * Docker containers.
+                        * Drupal 8 custom module development.
+                        * 100% development
+
+
+Teachers DB (http://teachercontracts.conncan.org)
+Role:                Senior Developer 
+Team Size:        3
+Environment:        Drupal 7
+Database:        MySQL
+Description:        It’s web application containing detailed information about teachers in the ConnCAN advocacy group.
+
+
+Contribution:
+                        * highcharts integration
+                        * Used Feeds for importing Data
+                        * District Comparison
+                        * 100% development 
+
+
+
+
+DRB (Disaster Resistant Business) (https://tool.drbtoolkit.org/)
+Role:                Senior Developer
+Team Size:        5
+Environment:        Drupal 7
+Database:        MySQL
+Description:        Developed the web version of the Desktop application disaster management tool, about the primary purpose of a disaster plan and program, is to first ensure the safety of the employees and then ensure the continuation or reinstatement of time-sensitive business operations after unplanned disruptions such as fire, power or communications blackout, hurricane, flood, earthquake, civil disturbance.
+
+
+Contributions:
+                        * Table Field manipulation
+                        * Chapter index according to the user language.
+                        * Time estimation with Highcharts
+                        * Report generation in PDF
+                        * 60% development 
+
+
+     
+Report Card(CONNCAN-Drupal 6) (http://teachercontracts.conncan.org)
+Role:                Senior Developer
+Team Size:        3
+Environment:        Drupal 6/7
+Database:        MySQL
+Description:        It’s web application about the details of school and district report cards in Connecticut.
+
+
+Contributions:
+                        * Open Flash Chart 
+                        * Content template
+                        * Search and email report cards
+                        * Used Node imports for importing Data
+                        * 100% development 
+
+
+
+
+
+
+Drupal Contributions
+(https://gist.github.com/rakeshjames/04e8b20c325b0447197cef55a5c5dc55 )
+                        * Views Taxonomy Term Name Depth
+                        * Loqate
+                        * Simple Image Popup
+                        * Contact Form Popup
+                        * Login Popup
+                        * Entity Reference Tab / Accordion Formatter
+                        * Services Menu
+                        * Account Settings Tab
+                        * User private fields
+                        * Broken Link
+                        * Download all files
+                        * Drush Delete All
+                        * Claro Extras 
+                        * Raw Formatter [Meta Tag Formatter]
+                        * Custom Solr Search
+                        * Apigee App Dashboard
+                        * Views breadcrumb
+
+
+
+
+
+
+
+
+EDUCATION
+
+
+                        * B Tech (Computer Science)                Calicut University, INDIA        2007
+                        * HSE (Science and Mathematics)        Kerala HSE Board, INDIA        2003
+                        * SSLC (Arts, Science and Mathematics)        Kerala Board, INDIA         2001
