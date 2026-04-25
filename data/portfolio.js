@@ -51,7 +51,7 @@ export const employmentSummary = [
   {
     org: 'DrupalAmico Limited — Independent Consultant',
     role: 'Solution Architect',
-    period: 'Nov 2021 – Present',
+    period: 'Jan 2018 – Present',
     summary: 'Independent Solution Architect engaging directly and via partners. Recent contracts: Royal Mail, Imperial War Museum, Tribal Worldwide / Omnicom, Stratusmeridian, Huumun, AutoZone (Apigee), WaterAid. Architecture, delivery, and stakeholder leadership across pharma, public sector, retail, and global agencies.',
   },
   {
