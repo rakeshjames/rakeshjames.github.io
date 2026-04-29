@@ -19,7 +19,7 @@ export default function About() {
           {/* Floating badge */}
           <div className="absolute -bottom-4 -right-4 md:right-4 glass px-5 py-3 flex items-center gap-3">
             <span className="w-3 h-3 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-sm text-white font-medium">Available for UK contracts · Outside IR35 preferred</span>
+            <span className="text-sm text-white font-medium">Available for remote contracts · Outside IR35 preferred for UK</span>
           </div>
         </div>
 

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && touch out/.nojekyll && cd out && git init && git branch -m main 2>/dev/null; git add . && git commit -m 'deploy' && git push --force git@github.com:rakeshjames/rakeshjames.github.io.git main"
+    "deploy": "git push origin main"
   },
   "dependencies": {
     "next": "14.2.29",
