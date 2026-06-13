@@ -6,7 +6,7 @@
 export const siteConfig = {
   name: 'Rakesh James',
   title: 'Solution Architect — AI, Drupal & API Platforms',
-  tagline: 'I architect and ship AI-augmented digital products end-to-end. 17+ years delivering for Royal Mail, Imperial War Museum, AutoZone, WHO, Time Magazine, and WaterAid. Available for remote contracts worldwide (Outside IR35 preferred for UK).',
+  tagline: 'I architect and ship AI-augmented digital products end-to-end. 17+ years delivering for Royal Mail, Imperial War Museum, AutoZone, WHO, Time Magazine, and WaterAid. Available for remote contracts worldwide.',
   github: 'https://github.com/rakeshjames',
   linkedin: 'https://www.linkedin.com/in/rakeshjames',
   drupal: 'https://www.drupal.org/u/rakeshgectcr',
@@ -18,7 +18,7 @@ export const siteConfig = {
   // Contract availability — surfaced in Hero & About
   availability: {
     status: 'Available for remote contracts',
-    detail: 'Remote-first · UK & international · Outside IR35 preferred for UK · Immediate start',
+    detail: 'Remote-first · UK & international · Immediate start',
   },
 }
 
