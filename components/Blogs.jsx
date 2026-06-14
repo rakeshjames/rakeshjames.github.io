@@ -1,3 +1,5 @@
+'use client'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 const DRUPAL_API = 'https://dev-drupalamicolimited.pantheonsite.io/jsonapi/node/article'
@@ -16,21 +18,26 @@ function stripHtml(html) {
   return html.replace(/<[^>]+>/g, '').trim()
 }
 
-async function getArticles() {
-  try {
-    const res = await fetch(`${DRUPAL_API}?sort=-created&page[limit]=9`, {
-      next: { revalidate: false },
-    })
-    if (!res.ok) return []
-    const json = await res.json()
-    return json.data || []
-  } catch {
-    return []
-  }
-}
+export default function Blogs() {
+  const [articles, setArticles] = useState([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
 
-export default async function Blogs() {
-  const articles = await getArticles()
+  useEffect(() => {
+    fetch(`${DRUPAL_API}?sort=-created&page[limit]=9`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`API responded with ${res.status}`)
+        return res.json()
+      })
+      .then((json) => {
+        setArticles(json.data || [])
+        setLoading(false)
+      })
+      .catch((err) => {
+        setError(err.message)
+        setLoading(false)
+      })
+  }, [])
 
   return (
     <section id="blog" className="py-24 px-6">
@@ -43,11 +50,28 @@ export default async function Blogs() {
           </p>
         </div>
 
-        {articles.length === 0 && (
+        {loading && (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <div key={i} className="glass p-6 animate-pulse">
+                <div className="h-3 bg-white/10 rounded w-1/3 mb-4" />
+                <div className="h-5 bg-white/10 rounded w-3/4 mb-3" />
+                <div className="h-3 bg-white/10 rounded w-full mb-2" />
+                <div className="h-3 bg-white/10 rounded w-5/6" />
+              </div>
+            ))}
+          </div>
+        )}
+
+        {error && (
+          <p className="text-red-400 text-sm">Could not load articles: {error}</p>
+        )}
+
+        {!loading && !error && articles.length === 0 && (
           <p className="text-slate-400 text-sm">No articles published yet.</p>
         )}
 
-        {articles.length > 0 && (
+        {!loading && !error && articles.length > 0 && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {articles.map((article) => {
               const { title, created, body, path } = article.attributes
