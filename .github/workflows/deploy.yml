@@ -3,6 +3,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  # Rebuild daily at 06:00 UTC to pick up new Drupal articles automatically
+  schedule:
+    - cron: '0 6 * * *'
+  # Allow manual trigger from the GitHub Actions tab
   workflow_dispatch:
 
 permissions:
