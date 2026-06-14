@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const DRUPAL_API = 'https://live-drupalamicolimited.pantheonsite.io/jsonapi/node/article'
+const DRUPAL_API = 'https://dev-drupalamicolimited.pantheonsite.io/jsonapi/node/article'
 
 function formatDate(isoString) {
   if (!isoString) return ''
@@ -55,7 +55,7 @@ export default async function Blogs() {
                 ? stripHtml(body.summary)
                 : stripHtml(body?.processed || '').slice(0, 160)
               const slug = path?.alias || `/node/${article.id}`
-              const url = `https://live-drupalamicolimited.pantheonsite.io${slug}`
+              const url = `https://dev-drupalamicolimited.pantheonsite.io${slug}`
 
               return (
                 <article key={article.id} className="glass p-6 flex flex-col group hover:border-teal-400/30 transition-all duration-300">

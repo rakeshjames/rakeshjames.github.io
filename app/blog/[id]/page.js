@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Navbar from '../../../components/Navbar'
 import Footer from '../../../components/Footer'
 
-const BASE = 'https://live-drupalamicolimited.pantheonsite.io'
+const BASE = 'https://dev-drupalamicolimited.pantheonsite.io'
 
 const GRADIENTS = [
   'linear-gradient(135deg, #0d3d3a 0%, #0a121d 50%, #1a1040 100%)',
