@@ -68,6 +68,8 @@ export default function ArticleClient() {
       pre.appendChild(btn)
     })
   }, [data])
+
+  useEffect(() => {
     if (!id) return
     fetch(`${BASE}/jsonapi/node/article/${id}?include=field_image`)
       .then((res) => {
