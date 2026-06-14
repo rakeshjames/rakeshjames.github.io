@@ -30,7 +30,9 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'py-3 bg-[#0a121d]/78 backdrop-blur-2xl border-b border-teal-300/15 shadow-lg shadow-black/20' : 'py-5'
+        scrolled || !isHome
+          ? 'py-3 bg-[#0a121d]/90 backdrop-blur-2xl border-b border-teal-300/15 shadow-lg shadow-black/20'
+          : 'py-5'
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 flex items-center justify-between">
