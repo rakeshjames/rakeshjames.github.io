@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 import { siteConfig } from '../data/portfolio'
 
 const navLinks = [
@@ -14,6 +15,11 @@ const navLinks = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const pathname = usePathname()
+  const isHome = pathname === '/'
+
+  // Prefix hash links with / when not on homepage so they navigate back
+  const resolveHref = (hash) => isHome ? hash : `/${hash}`
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40)
@@ -29,7 +35,7 @@ export default function Navbar() {
     >
       <nav className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="group inline-flex items-center gap-3 font-display text-lg md:text-xl font-bold text-white tracking-tight">
+        <a href={isHome ? '#' : '/'} className="group inline-flex items-center gap-3 font-display text-lg md:text-xl font-bold text-white tracking-tight">
           <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-teal-300/30 bg-teal-400/10 text-teal-300 text-xs font-mono">
             RJ
           </span>
@@ -43,7 +49,7 @@ export default function Navbar() {
           {navLinks.map(link => (
             <li key={link.href}>
               <a
-                href={link.href}
+                href={resolveHref(link.href)}
                 className="text-sm text-slate-300/90 hover:text-white transition-colors duration-200"
               >
                 {link.label}
@@ -87,7 +93,7 @@ export default function Navbar() {
             {navLinks.map(link => (
               <li key={link.href}>
                 <a
-                  href={link.href}
+                  href={resolveHref(link.href)}
                   onClick={() => setMenuOpen(false)}
                   className="text-slate-200 hover:text-white text-lg transition-colors"
                 >
