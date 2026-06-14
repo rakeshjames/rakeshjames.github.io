@@ -1,7 +1,20 @@
 import { siteConfig } from '../data/portfolio'
 
+const CAREER_START_YEAR = 2008
+const CAREER_START_MONTH = 8
+
+function getExperienceYears() {
+  const now = new Date()
+  const years = now.getFullYear() - CAREER_START_YEAR
+  const hasReachedAnniversary = now.getMonth() >= CAREER_START_MONTH
+
+  return hasReachedAnniversary ? years : years - 1
+}
+
+const experienceYears = `${getExperienceYears()}+`
+
 const stats = [
-  { value: '17+', label: 'Years delivering' },
+  { value: experienceYears, label: 'Years delivering' },
   { value: '10+', label: 'Enterprise contracts' },
   { value: '15+', label: 'Open-source modules' },
   { value: 'Top 30', label: 'Global Drupal contributor' },
@@ -22,7 +35,7 @@ const strengths = [
   },
   {
     title: 'Enterprise-grade delivery',
-    body: 'Cyber Essentials, Entra ID, Apigee, Azure — compliance and security baked in from day one.',
+    body: 'Azure Foundry, Acquia and Pantheon Cloud, Azure Logic Apps, API proxies, and Azure Entra ID — enterprise delivery patterns baked in from day one.',
     gradient: 'from-violet-400/20 to-violet-400/0',
     accent: 'bg-violet-400',
   },
@@ -42,7 +55,7 @@ export default function Videos() {
         {/* Header */}
         <div className="mb-16">
           <p className="eyebrow mb-3">Experience</p>
-          <h2 className="section-heading">17+ years of architecture &amp; delivery.</h2>
+          <h2 className="section-heading">{experienceYears} years of architecture &amp; delivery.</h2>
           <p className="section-sub">
             Independent Solution Architect across pharma, public sector, retail, and global media — owning architecture, delivery, and outcomes end-to-end.
           </p>
