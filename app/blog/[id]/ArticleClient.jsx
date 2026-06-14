@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import Navbar from '../../../components/Navbar'
@@ -25,8 +25,49 @@ export default function ArticleClient() {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const bodyRef = useRef(null)
 
+  // Inject copy buttons into every <pre> block after content renders
   useEffect(() => {
+    if (!bodyRef.current) return
+    const blocks = bodyRef.current.querySelectorAll('pre')
+    blocks.forEach((pre) => {
+      if (pre.querySelector('.copy-btn')) return // already injected
+      pre.style.position = 'relative'
+
+      const btn = document.createElement('button')
+      btn.className = 'copy-btn'
+      btn.setAttribute('aria-label', 'Copy code')
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`
+      Object.assign(btn.style, {
+        position: 'absolute', top: '10px', right: '10px',
+        display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+        padding: '5px 10px', gap: '5px',
+        background: 'rgba(45,212,191,0.12)', border: '1px solid rgba(45,212,191,0.35)',
+        borderRadius: '6px', color: '#5eead4', cursor: 'pointer',
+        fontSize: '11px', fontFamily: 'monospace', transition: 'all 0.2s',
+      })
+
+      btn.addEventListener('mouseenter', () => { btn.style.background = 'rgba(45,212,191,0.22)' })
+      btn.addEventListener('mouseleave', () => { btn.style.background = 'rgba(45,212,191,0.12)' })
+
+      btn.addEventListener('click', () => {
+        const code = pre.querySelector('code')?.innerText || pre.innerText
+        navigator.clipboard.writeText(code).then(() => {
+          btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Copied`
+          btn.style.color = '#34d399'
+          btn.style.borderColor = 'rgba(52,211,153,0.5)'
+          setTimeout(() => {
+            btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`
+            btn.style.color = '#5eead4'
+            btn.style.borderColor = 'rgba(45,212,191,0.35)'
+          }, 2000)
+        })
+      })
+
+      pre.appendChild(btn)
+    })
+  }, [data])
     if (!id) return
     fetch(`${BASE}/jsonapi/node/article/${id}?include=field_image`)
       .then((res) => {
@@ -105,7 +146,7 @@ export default function ArticleClient() {
 
       {/* Article body */}
       <div className="max-w-3xl mx-auto px-6 py-12 pb-24">
-        <div className="article-body" dangerouslySetInnerHTML={{ __html: body?.processed || body?.value || '' }} />
+        <div ref={bodyRef} className="article-body" dangerouslySetInnerHTML={{ __html: body?.processed || body?.value || '' }} />
       </div>
 
       <Footer />
