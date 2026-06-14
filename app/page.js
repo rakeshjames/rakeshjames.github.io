@@ -4,6 +4,7 @@ import Portfolio from '../components/Portfolio'
 import Videos from '../components/Videos'
 import About from '../components/About'
 import Skills from '../components/Skills'
+import Blogs from '../components/Blogs'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Videos />
       <About />
       <Skills />
+      <Blogs />
       <Contact />
       <Footer />
     </main>
