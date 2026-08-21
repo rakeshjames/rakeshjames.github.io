@@ -41,7 +41,7 @@ const strengths = [
   },
   {
     title: 'Cross-sector credibility',
-    body: 'Pharma, logistics, retail, public sector, global NGOs — patterns that work, applied with context.',
+    body: 'Financial services, pharma, logistics, retail, public sector, global NGOs — patterns that work, applied with context.',
     gradient: 'from-sky-400/20 to-sky-400/0',
     accent: 'bg-sky-400',
   },
@@ -57,7 +57,7 @@ export default function Videos() {
           <p className="eyebrow mb-3">Experience</p>
           <h2 className="section-heading">{experienceYears} years of architecture &amp; delivery.</h2>
           <p className="section-sub">
-            Independent Solution Architect across pharma, public sector, retail, and global media — owning architecture, delivery, and outcomes end-to-end.
+            Independent Solution Architect across financial services, pharma, public sector, retail, and global media — owning architecture, delivery, and outcomes end-to-end.
           </p>
         </div>
 

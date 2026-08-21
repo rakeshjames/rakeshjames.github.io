@@ -5,8 +5,8 @@
 
 export const siteConfig = {
   name: 'Rakesh James',
-  title: 'Solution Architect — AI, Drupal & API Platforms',
-  tagline: 'I architect and ship AI-augmented digital products end-to-end. 17+ years delivering for Royal Mail, Imperial War Museum, AutoZone, WHO, Time Magazine, and WaterAid. Available for remote contracts worldwide.',
+  title: 'Solution Architect — Enterprise GenAI, Azure & API Platforms',
+  tagline: 'I architect and ship enterprise AI end-to-end — production LLM systems, RAG pipelines, and copilots on secure Azure cloud, alongside the API and content platforms that feed them. 17+ years delivering for Royal Mail, Equifax, Imperial War Museum, AutoZone, WHO, Time Magazine, and WaterAid. Available for remote contracts worldwide.',
   github: 'https://github.com/rakeshjames',
   linkedin: 'https://www.linkedin.com/in/rakeshjames',
   drupal: 'https://www.drupal.org/u/rakeshgectcr',
@@ -22,29 +22,29 @@ export const siteConfig = {
   },
 }
 
-export const aboutText = `I'm a Solution Architect with 17+ years delivering enterprise digital platforms across pharma, public sector, retail, and global agencies. I sit at the intersection of three things modern businesses need at once: a flexible content backbone (Drupal & Symfony), great front-end and developer experience (React, Next.js, Vue, Apigee), and AI capability that actually ships into production (LLM, RAG, semantic search). I'm a recognised open-source contributor — Top-30 global Drupal contributor and author of 15+ contributed modules.`
+export const aboutText = `I'm a Solution Architect with 17+ years designing enterprise platforms across financial services, pharma, public sector, retail, and global agencies — increasingly focused on enterprise Generative AI. I own architecture end-to-end: from high-level design through security and compliance to production deployment. I bring three things modern organisations need at once — Generative AI that actually ships (LLM systems, RAG pipelines, copilots, agent orchestration on Azure OpenAI), the API and content backbone that grounds it (Apigee, Drupal, Symfony), and secure, regulated cloud delivery. I'm a recognised open-source contributor — Top-30 global Drupal contributor and author of 15+ contributed modules — used to setting the blueprints other engineers build on.`
 
 export const technicalProfile = [
-  'End-to-end Solution Architecture: translate ambiguous business goals into modular, secure, scalable systems — and lead the team that builds them.',
-  'AI-augmented product delivery: integrate LLM, RAG, and semantic-search features into customer-facing platforms in 1–3 months, not 12.',
-  'API platforms & developer experience: Apigee Developer Portals with CI/CD-driven proxy provisioning, identity, and JIRA workflows.',
-  'Headless & composable web: Drupal backends powering React, Next.js, Vue, and Flutter front-ends with JSON:API and design systems.',
-  'Compliance-ready delivery: Cyber Essentials, Entra ID, Ping ID, Cloudflare/Akamai — production-grade in regulated environments.',
+  'Enterprise GenAI architecture: design production LLM systems, RAG pipelines, and enterprise copilots — retrieval, grounding, evaluation, and agent orchestration (LangGraph, Semantic Kernel) on Azure OpenAI / AI Foundry.',
+  'End-to-end ownership: translate ambiguous business goals into modular, secure, scalable systems — from high-level design through security accreditation to deployment — and lead the team that builds them.',
+  'Secure, regulated cloud: containerised workloads on AKS/Kubernetes with Entra ID, Ping ID, Cyber Essentials, and data-residency boundaries — production-grade in high-compliance environments.',
+  'Vector & semantic retrieval: vector databases and hybrid search (Solr, Elasticsearch, vector stores) as the grounding layer for RAG and enterprise knowledge copilots.',
+  'API platforms & developer experience: Apigee Developer Portals with CI/CD-driven proxy provisioning, identity, and JIRA workflows — the integration fabric behind AI-enabled products.',
 ]
 
 // Skills — the level numbers drive the bar widths in the Skills component.
 // Keep the list focused; recruiters skim, they don't read.
 export const skills = [
-  { name: 'Solution Architecture', level: 97 },
-  { name: 'Drupal Architecture (6–11)', level: 97 },
+  { name: 'Enterprise Solution Architecture', level: 97 },
+  { name: 'Generative AI — LLM, RAG & Copilots', level: 89 },
+  { name: 'Azure OpenAI & AI Foundry', level: 85 },
+  { name: 'Agent Orchestration — LangGraph, Semantic Kernel', level: 82 },
+  { name: 'Vector Search & Semantic Retrieval', level: 88 },
+  { name: 'Secure Cloud — Azure, AKS/Kubernetes, AWS, GCP', level: 90 },
+  { name: 'Identity & Compliance — Entra ID, Ping ID, Cyber Essentials', level: 92 },
   { name: 'API Platforms & Google Apigee', level: 94 },
-  { name: 'AI / LLM / RAG Integration', level: 88 },
-  { name: 'Headless CMS — React, Next.js, Vue', level: 93 },
-  { name: 'PHP, Symfony, Laravel', level: 95 },
-  { name: 'Cloud — Azure, AWS, GCP', level: 90 },
-  { name: 'Identity & Security (Entra ID, Ping ID, Cyber Essentials)', level: 92 },
-  { name: 'Search — Solr, Elasticsearch, Vector Stores', level: 90 },
-  { name: 'DevOps — Docker, Kubernetes, CI/CD, Acquia, Pantheon', level: 88 },
+  { name: 'Drupal Architecture (6–11) & Headless (React, Next.js)', level: 97 },
+  { name: 'DevOps — Docker, CI/CD, Acquia, Pantheon', level: 88 },
 ]
 
 export const employmentSummary = [
@@ -53,13 +53,14 @@ export const employmentSummary = [
     role: 'Solution Architect — Contract',
     period: 'Jan 2018 – Present',
     tenure: '7+ years',
-    domains: ['Logistics', 'Public Sector', 'Global Media', 'Retail', 'Pharma', 'NGO'],
-    summary: 'Principal architect across 10+ enterprise engagements, delivering AI-augmented platforms, headless CMS architectures, and Apigee API ecosystems. Responsible for end-to-end architecture, stakeholder alignment, and technical delivery leadership on programmes ranging from 3-month accelerators to 18-month transformations.',
+    domains: ['Financial Services', 'Logistics', 'Public Sector', 'Global Media', 'Retail', 'Pharma', 'NGO'],
+    summary: 'Principal architect across 10+ enterprise engagements, owning architecture end-to-end — from high-level design through security accreditation to production deployment. Delivered enterprise GenAI (LLM, RAG, copilots), headless CMS architectures, and Apigee API ecosystems on secure Azure cloud, on programmes ranging from 3-month accelerators to 18-month transformations.',
     highlights: [
-      'Led platform modernisation for a UK national postal service — Drupal 9→10, React 11→19, Azure CIAM',
-      'Architected headless Drupal + Apigee developer portal for a Fortune 500 US retailer across 4 domains',
+      'Architected a RAG-based patient-assistant copilot (LLM + vector retrieval) for a leading EU pharmaceutical group in a compliance-sensitive environment',
+      'Architected the public API developer portal for a global credit-bureau and identity-data provider, covering its credit, identity, and verification API products',
       'Delivered AI content moderation and semantic search for a global media brand',
-      'Designed AI patient-assistant chatbot (RAG/LLM) for a leading EU pharmaceutical group',
+      'Led platform modernisation for a UK national postal service — Drupal 9→10, React 11→19, Azure Entra ID CIAM',
+      'Architected headless Drupal + Apigee developer portal for a Fortune 500 US retailer across 4 domains',
     ],
   },
   {
@@ -129,6 +130,27 @@ export const employmentSummary = [
 // Each project gets a `client` field so the Portfolio card can render it
 // alongside the role, duration, and stack.
 export const projectPortfolio = [
+  {
+    id: 13,
+    client: 'EU Pharmaceutical Group (under NDA)',
+    title: 'Enterprise RAG Patient-Assistant Copilot',
+    category: 'Enterprise AI / GenAI',
+    role: 'Solution Architect',
+    stack: 'Azure OpenAI, RAG pipeline, vector search, AKS, Entra ID',
+    duration: '4 months',
+    description: 'Architected a retrieval-augmented (RAG) patient-assistant copilot for a leading EU pharmaceutical group in a compliance-sensitive environment. Designed the end-to-end pipeline — document ingestion and chunking, vector retrieval, LLM grounding, and answer evaluation — with guardrails, PII handling, and audit logging. Deployed on secure Azure cloud (Azure OpenAI + AKS) with Entra ID access control and data-residency boundaries.',
+  },
+  {
+    id: 14,
+    client: 'Equifax',
+    title: 'Equifax API Developer Portal — Credit, Identity & Verification APIs',
+    category: 'API Platforms & DX',
+    role: 'API Solution Architect',
+    stack: 'Google Apigee, Drupal, CI/CD, SSO, OpenAPI / Swagger UI, Kubernetes',
+    duration: '12 months',
+    url: 'https://developer.equifax.com/',
+    description: 'API Solution Architect on Equifax\'s public developer portal — the single entry point for partners consuming its credit, identity, verification, and location API products (OneView, Verification Exchange, Talent Report, WalletInsights). Owned the portal architecture and API developer experience: the API product catalogue and OpenAPI documentation, self-service app registration and key management, SSO-backed developer onboarding, and CI/CD-driven proxy and product provisioning — delivered in a regulated financial-data environment.',
+  },
   {
     id: 1,
     client: 'Royal Mail',
