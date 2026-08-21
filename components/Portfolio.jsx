@@ -13,10 +13,10 @@ export default function Portfolio() {
     <section id="portfolio" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="mb-14">
-          <p className="eyebrow mb-3">Recent Contracts</p>
+          <p className="eyebrow mb-3">Recent Projects</p>
           <h2 className="section-heading">Real clients. Real outcomes.</h2>
           <p className="section-sub">
-            A focused view of contract engagements where I owned architecture, delivery, or both — across Solution Architecture, API platforms, and headless web.
+            A focused view of projects where I owned architecture, delivery, or both — across Solution Architecture, API platforms, and headless web.
           </p>
         </div>
 
