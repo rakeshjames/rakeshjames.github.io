@@ -176,7 +176,6 @@ export const projectPortfolio = [
       'Proved safety parity through the hub\'s safety stage and built a "not degraded" replay harness with a 90% acceptance threshold before cut-over',
       'Built self-service content admin: per-agent roles from token claims, S3 presigned uploads and caller-scoped limits',
     ],
-    outcome: '21 planned pieces across 3 phases, ~85 commits and 20+ reviewed PRs. Each infrastructure PR carried its Terraform plan; production stayed read-only throughout.',
   },
   {
     id: 16,
@@ -193,7 +192,6 @@ export const projectPortfolio = [
       '15 security findings with severity, evidence and fixes — one critical identity-takeover path and five high-severity issues — in a suggested remediation order',
       'Listed where the documented design disagrees with actual behaviour, for assurance sign-off',
     ],
-    outcome: 'A ranked remediation plan covering identity binding, per-spoke agent credentials, fail-closed authorisation, document-level ACLs and CI-pinned security settings.',
   },
   {
     id: 17,
