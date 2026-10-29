@@ -23,25 +23,25 @@ const stats = [
 const strengths = [
   {
     title: 'Hands-on, not just diagrams',
-    body: 'I design the multi-agent topology, then write the runtime, the RAG pipeline and the Terraform myself.',
+    body: 'I design the AI architecture, then write the RAG pipeline, the agents and the infrastructure as code myself.',
     gradient: 'from-teal-400/20 to-teal-400/0',
     accent: 'bg-teal-400',
   },
   {
-    title: 'Evaluation before cut-over',
-    body: 'Routing measured before and after every change, replay harnesses against the old path, and safety parity proved before an agent goes live.',
+    title: 'Guardrails built in',
+    body: 'Approval gates on agent actions, read-only production, and access filtered by each user\'s permissions, designed in from the start.',
     gradient: 'from-orange-400/20 to-orange-400/0',
     accent: 'bg-orange-400',
   },
   {
     title: 'Secure by design',
-    body: 'Agent identity, token scopes and data isolation reviewed from the code, not the docs. Least-privilege, time-boxed access and production kept read-only.',
+    body: 'Zero-secret service identity with Entra ID, least-privilege access, audit logging with retention for compliance sign-off, and security reviews of AI integrations.',
     gradient: 'from-violet-400/20 to-violet-400/0',
     accent: 'bg-violet-400',
   },
   {
     title: 'Enterprise-grade delivery',
-    body: 'AWS Bedrock AgentCore, Azure AI Foundry, Terraform and reviewed PRs with plan evidence, across public sector, pharma, financial services and retail.',
+    body: 'Azure OpenAI, Azure AI Search, Azure AI Foundry and Amazon Bedrock, with Bicep and Terraform, across energy, public sector, pharma, financial services and retail.',
     gradient: 'from-sky-400/20 to-sky-400/0',
     accent: 'bg-sky-400',
   },
@@ -57,7 +57,7 @@ export default function Videos() {
           <p className="eyebrow mb-3">Experience</p>
           <h2 className="section-heading">{experienceYears} years of architecture &amp; delivery.</h2>
           <p className="section-sub">
-            Independent AI Solution Architect across public sector, pharma, financial services, retail, and global media — owning architecture, delivery, and outcomes end-to-end.
+            AI Solution Architect across energy, public sector, pharma, financial services, retail, and global media — owning architecture, delivery, and outcomes end-to-end.
           </p>
         </div>
 

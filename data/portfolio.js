@@ -5,8 +5,8 @@
 
 export const siteConfig = {
   name: 'Rakesh James',
-  title: 'Hands-on AI Solution Architect — Agentic AI, Multi-Agent Orchestration & Secure Cloud',
-  tagline: 'I design and build production multi-agent AI systems on AWS and Azure: hub-and-spoke orchestration, Bedrock AgentCore runtimes, RAG pipelines, guardrails and evaluation, delivered as infrastructure-as-code with the security reviews regulated sectors need. Backed by 17+ years of enterprise architecture for public sector, pharma, financial services and global brands. Available for remote contracts worldwide.',
+  title: 'Hands-on AI Solution Architect — Agentic AI, Generative AI & Secure Cloud',
+  tagline: 'I design and build agentic and generative AI systems on Azure and AWS: RAG pipelines and AI assistants, AI engineering agents over MCP, guardrails and evaluation, delivered as infrastructure as code with the identity and security controls regulated sectors need. Backed by 17+ years of enterprise architecture for public sector, pharma, financial services and global brands. Available for remote contracts worldwide.',
   github: 'https://github.com/rakeshjames',
   linkedin: 'https://www.linkedin.com/in/rakeshjames',
   drupal: 'https://www.drupal.org/u/rakeshgectcr',
@@ -22,13 +22,13 @@ export const siteConfig = {
   },
 }
 
-export const aboutText = `AI Solution Architect with 17+ years in enterprise platforms, now focused on agentic AI. I architect and ship: I design multi-agent topologies, write the runtime and Terraform, prove routing and safety with live evaluations, and carry out security reviews of agent identity and data isolation. My recent work is on a public-sector multi-agent AI platform. It covers agent onboarding, Bedrock AgentCore runtimes, RAG content pipelines, and an architecture and security review of a Microsoft 365 knowledge-agent swarm. I bring three things AI programmes need at once — agentic and generative AI that actually ships (multi-agent orchestration, RAG, guardrails and evaluation on AWS Bedrock and Azure OpenAI), the API and data backbone that grounds it, and secure, regulated cloud delivery. Before AI, I spent years setting the platform blueprints other engineers build on, including as a Top-30 global open-source contributor.`
+export const aboutText = `AI Solution Architect with 17+ years in enterprise platforms, now focused on agentic and generative AI. I architect and ship: I design the AI architecture, then build the RAG pipeline, the agents and the infrastructure as code, and secure how agents and services authenticate and reach data. My recent work is for a UK energy-industry regulator: a RAG AI Assistant on Azure OpenAI and Azure AI Search, an Azure data and AI platform in Bicep, and Claude Code agents that review code, write tests and triage bugs for the delivery team. I bring three things AI programmes need at once — agentic and generative AI that actually ships (AI agents, RAG, guardrails and evaluation on Azure OpenAI and AWS Bedrock), the API and data backbone that grounds it, and secure, regulated cloud delivery. Before AI, I spent years setting the platform blueprints other engineers build on, including as a Top-30 global open-source contributor.`
 
 export const technicalProfile = [
-  'Agentic AI & multi-agent orchestration: hub-and-spoke routing, Amazon Bedrock AgentCore runtimes, Guardrails and Knowledge Bases, MCP — with live routing evaluations, replay harnesses and safety parity checks before cut-over, all delivered as Terraform.',
+  'Agentic AI: AI agents with tools, skills and hooks, Model Context Protocol (MCP) integrations, approval-gated actions and read-only production — plus agent orchestration on Azure AI Foundry and Amazon Bedrock.',
   'Enterprise GenAI architecture: design production LLM systems, RAG pipelines, and enterprise copilots — retrieval, grounding, evaluation, and agent orchestration (LangGraph, Semantic Kernel) on Azure OpenAI / AI Foundry.',
-  'AI security & assurance: agent identity, OBO token flows, Entra ID and Cognito, per-user and tenant data isolation — architecture and security reviews of multi-agent systems with ranked, evidence-backed findings.',
-  'Vector & semantic retrieval: vector databases and hybrid search (OpenSearch, Solr, Elasticsearch) as the grounding layer for RAG and enterprise knowledge copilots.',
+  'AI security & assurance: agent identity, Entra ID app roles, managed identities, per-user and group-based data isolation — and security assessments of AI integrations such as MCP servers.',
+  'Vector & semantic retrieval: vector databases and hybrid search (Azure AI Search, Solr, Elasticsearch) as the grounding layer for RAG and enterprise knowledge copilots.',
   'Secure, regulated cloud: AWS and Azure workloads with least-privilege access, data-residency boundaries and Cyber Essentials — production-grade in high-compliance environments.',
   'End-to-end ownership: translate ambiguous business goals into modular, secure, scalable AI systems — from high-level design through security accreditation to deployment — and lead the team that builds them.',
   'API & integration platforms: Apigee developer portals and identity-backed APIs — the integration fabric AI agents call into.',
@@ -37,15 +37,15 @@ export const technicalProfile = [
 // Skills — the level numbers drive the bar widths in the Skills component.
 // Keep the list focused; recruiters skim, they don't read.
 export const skills = [
-  { name: 'Agentic AI & Multi-Agent Orchestration — hub-and-spoke, routing, MCP', level: 92 },
+  { name: 'Agentic AI — agents, tools, MCP & orchestration', level: 92 },
   { name: 'Enterprise Solution Architecture', level: 97 },
   { name: 'Generative AI — LLM, RAG, Guardrails & Evaluation', level: 92 },
-  { name: 'AWS Bedrock & AgentCore Runtime', level: 88 },
+  { name: 'Amazon Bedrock & AWS AI Services', level: 85 },
   { name: 'Infrastructure as Code — Terraform (AWS) & Bicep (Azure)', level: 88 },
-  { name: 'AI Security & Identity — OBO, Entra ID, Cognito, data isolation', level: 92 },
-  { name: 'LLM Evaluation — routing measures, replay harnesses, safety parity', level: 85 },
-  { name: 'Azure OpenAI & AI Foundry', level: 85 },
-  { name: 'Vector Search & Semantic Retrieval — OpenSearch, Solr, Elasticsearch', level: 90 },
+  { name: 'AI Security & Identity — Entra ID, managed identity, data isolation', level: 92 },
+  { name: 'LLM Evaluation & Guardrails', level: 85 },
+  { name: 'Azure OpenAI, AI Search & AI Foundry', level: 88 },
+  { name: 'Vector Search & Semantic Retrieval — Azure AI Search, Solr, Elasticsearch', level: 90 },
   { name: 'Secure Cloud — AWS, Azure, AKS/Kubernetes, GCP', level: 90 },
   { name: 'API Platforms & Google Apigee', level: 94 },
 ]
@@ -59,24 +59,6 @@ export const heritageSkills = [
 
 export const employmentSummary = [
   {
-    sector: 'UK Public Sector (NDA)',
-    role: 'Solution Architect, Agentic AI — Contract',
-    period: 'Sep 2026 – Present',
-    tenure: 'Current · Remote',
-    domains: ['Public Sector', 'Agentic AI', 'Multi-Agent Systems', 'AI Security'],
-    summary: 'Hands-on architect on a multi-agent AI orchestration platform. A hub-and-spoke orchestrator routes citizen and staff conversations to specialist AI agents.',
-    highlights: [
-      'Moved a standalone GenAI citizen assistant into the multi-agent hub over 3 phases and 21 delivery pieces, rebuilding its whole estate (RAG ETL, knowledge base, agent, staff dashboard, alarms) as Terraform on AWS',
-      'Re-architected the agent onto Amazon Bedrock AgentCore Runtime (Python, Converse, Guardrails, Knowledge Base Retrieve) after Bedrock Agents closed to new accounts, with per-turn time budgets and explicit stop reasons',
-      'Designed an external-runtime agent pattern so the orchestrator can host agents that run in their own runtime; packaged the agent to the platform\'s Agent Standard as a versioned, pinned release',
-      'Tuned semantic routing with a live before/after evaluation over 100 phrases, with no regression on neighbouring agents; proved safety parity of triage cases through the hub\'s safety stage',
-      'Built a "not degraded" replay harness that scores the migrated agent against the original on real conversation shapes, with a 90% acceptance threshold',
-      'Delivered self-service content management: per-agent role-based access from token claims, S3 presigned uploads and caller-scoped limits',
-      'Reviewed the architecture and security of a Microsoft 365 knowledge-agent swarm (gateway, MCP sub-agents, Graph OBO, Entra ID): documented architecture, identity and data isolation, and gave 15 ranked findings with fixes, including a critical identity-takeover path',
-      'Worked to regulated-delivery discipline: one change per reviewed PR, Terraform plan evidence, production kept read-only, no secrets in code, least-privilege and time-boxed access',
-    ],
-  },
-  {
     sector: 'Independent Practice',
     role: 'Solution Architect — Contract',
     period: 'Jan 2018 – Present',
@@ -84,7 +66,6 @@ export const employmentSummary = [
     domains: ['Financial Services', 'Logistics', 'Public Sector', 'Global Media', 'Retail', 'Pharma', 'NGO'],
     summary: 'Principal architect across 10+ enterprise engagements, owning architecture end-to-end — from high-level design through security accreditation to production deployment. Delivered enterprise GenAI (LLM, RAG, copilots), headless CMS architectures, and Apigee API ecosystems on secure Azure cloud, on programmes ranging from 3-month accelerators to 18-month transformations.',
     highlights: [
-      'Architected a regulator portal move to Drupal 11 for RECCo, with RAG search and an AI Assistant on Azure OpenAI and Azure AI Search, zero-secret Entra ID API security, and Claude Code agents for MR review, E2E test writing and bug triage',
       'Architected a RAG-based patient-assistant copilot (LLM + vector retrieval) for a leading EU pharmaceutical group in a compliance-sensitive environment',
       'Architected the public API developer portal for a global credit-bureau and identity-data provider, covering its credit, identity, and verification API products',
       'Delivered AI content moderation and semantic search for a global media brand',
@@ -160,64 +141,31 @@ export const employmentSummary = [
 // alongside the role, duration, and stack.
 export const projectPortfolio = [
   {
-    id: 15,
-    client: 'UK Public Sector (NDA)',
-    title: 'Multi-Agent AI Orchestration Platform — Agent Onboarding & Runtime Migration',
-    category: 'Agentic AI',
-    role: 'Hands-on Solution Architect / AI Platform Engineer',
-    stack: 'AWS Bedrock AgentCore Runtime, Amazon Bedrock (Converse, Guardrails, Knowledge Bases), OpenSearch Serverless, Terraform, Python 3.13, TypeScript / Node 24, Lambda, EventBridge Scheduler, Cognito, Amplify, S3, CloudWatch, KMS, GitHub Actions',
-    duration: '3 months',
-    description: 'Moved a standalone citizen-facing GenAI assistant into a hub-and-spoke multi-agent orchestrator, where the hub routes each conversation to one of several specialist agents. Delivered in three phases: rebuild the assistant\'s whole estate as code, make it a first-class agent in the hub, then give non-technical staff self-service content management.',
-    highlights: [
-      'Re-architected the agent onto Bedrock AgentCore Runtime after Bedrock Agents closed to new accounts — a small Python service on Converse, ApplyGuardrail and Knowledge Base Retrieve, with per-turn time budgets and explicit stop reasons',
-      'Designed an external-runtime pattern so the orchestrator can host agents running in their own runtime, and packaged the agent to the platform\'s Agent Standard',
-      'Wrote the full RAG content pipeline as a Terraform module: crawlers, refinery, LLM summariser, knowledge-base sync, scheduled crawls and alarms',
-      'Tuned semantic routing with live before/after measurement across 100 phrases and no regression on neighbouring agents',
-      'Proved safety parity through the hub\'s safety stage and built a "not degraded" replay harness with a 90% acceptance threshold before cut-over',
-      'Built self-service content admin: per-agent roles from token claims, S3 presigned uploads and caller-scoped limits',
-    ],
-  },
-  {
-    id: 16,
-    client: 'UK Public Sector (NDA)',
-    title: 'Microsoft 365 Knowledge-Agent Swarm — Architecture & Security Review',
-    category: 'Agentic AI',
-    role: 'Solution / Security Architect (review and assurance)',
-    stack: 'Multi-agent swarm (gateway + domain sub-agents over MCP), Microsoft Graph (OBO / delegated tokens), Entra ID, Cognito, AWS Lambda / SAM, API Gateway, OpenSearch hybrid search, DynamoDB, Neptune, ElastiCache, Bedrock',
-    duration: '2 months',
-    description: 'Independent architecture, access-control and security review of a workforce AI assistant. A hub orchestrator calls a knowledge-swarm agent: a gateway that validates, routes and demotes tokens, then fans out to mail, calendar, OneDrive/SharePoint, Teams, knowledge (RAG) and graph sub-agents over MCP.',
-    highlights: [
-      'Documented the architecture traced from the code, not the docs: components, end-to-end request sequence, ingestion and sync, and trust boundaries',
-      'Mapped identity and data isolation: server-side Entra group checks, per-user and tenant ACL filters, and every delegated and application Graph permission',
-      '15 security findings with severity, evidence and fixes — one critical identity-takeover path and five high-severity issues — in a suggested remediation order',
-      'Listed where the documented design disagrees with actual behaviour, for assurance sign-off',
-    ],
-  },
-  {
     id: 17,
     client: 'RECCo',
-    title: 'Regulator Portal with RAG AI Assistant & AI Delivery Agents — Liferay to Drupal 11 on Azure',
-    category: 'Generative AI',
+    title: 'RECCo Digital Portal — RAG AI Assistant, Azure AI Platform & AI Engineering Agents',
+    category: 'AI Solutions',
     role: 'Technical Lead & Solution Architect',
-    stack: 'Azure OpenAI, Azure AI Search, Entra ID, Log Analytics, Blob Storage, Logic Apps, Power BI, Bicep (IaC), Azure DevOps, Claude Code agents, MCP, Drupal 11, Acquia Cloud, GitLab CI/CD, Nightwatch, Playwright',
+    stack: 'Azure OpenAI, Azure AI Search, Entra ID, Log Analytics, Blob Storage, Logic Apps, Power BI, Bicep (IaC), Azure DevOps, Claude Code agents, MCP, New Relic, Drupal 11, Acquia Cloud, GitLab CI/CD, Nightwatch, Playwright',
     duration: 'Ongoing',
     description: 'Technical lead and architect for moving a UK energy-industry regulator\'s Liferay portal to Drupal 11 on Acquia Cloud, with a Microsoft Azure data and AI platform behind it and an AI-assisted engineering workflow built on Claude Code agents.',
     highlights: [
-      'Built RAG search and an AI Assistant: a custom search backend chunks content and attachments (PDF, media, composite pages), embeds them with Azure OpenAI and indexes vectors in Azure AI Search, filtered by each user\'s group access',
-      'Designed Claude Code agents, skills and hooks used by the whole team: a merge-request reviewer that checks every finding against the code and linters, an E2E test author that turns a Jira feature into a passing test pack, bulk Jira bug triage, and Figma-to-code over MCP',
-      'Agent guardrails: write actions need approval, production is read-only, and hooks enforce safety',
+      'Built RAG search and an AI Assistant: a custom search backend chunks content and attachments (PDF, media, composite pages), embeds them with Azure OpenAI and indexes vectors in Azure AI Search, filtered by each user\'s group access. A configurable AI Assistant answers from that knowledge base, with exclusion by URL or title and automatic cleanup of excluded content in the index',
+      'Designed Claude Code agents, skills and hooks used by the whole team: a merge-request reviewer that checks every finding against the code and linters, an E2E test author that turns a Jira feature into a passing test pack, bulk Jira bug triage that raises fix MRs for simple bugs, Figma-to-code over design tokens and an MCP server, a Confluence diagram skill, and integration skills for Jira, GitLab, Acquia CLI and Azure',
+      'Agent guardrails: write actions need approval, production is read-only, and hooks enforce safety. Wrote the project\'s AI engineering standards that every agent follows (framework patterns, WCAG 2.2 AA, PHPCS, PHPMD and PHPStan gates)',
       'Assessed exposing the portal as a Model Context Protocol server for AI clients and documented the security gaps to close first',
       'Zero-secret API security with Entra ID: managed-identity and service-principal tokens, app roles mapped to portal roles, per-environment client allow-lists',
       'Defined the Azure data and AI platform as infrastructure as code in Bicep, managed in Azure DevOps',
-      'Azure integrations (private Blob Storage, Logic Apps user sync, Power BI with row-level security) and audit logging to Log Analytics with tiered retention for DPO sign-off',
+      'Azure integrations (private Blob Storage, a file-upload API for Azure service callers, Logic Apps user sync over Entra OAuth, Power BI embedded with row-level security) and audit logging to Log Analytics with tiered retention for DPO sign-off',
       'Designed 450+ migrations of content, organisations, users and regulatory data, with GitLab CI/CD to Acquia: tag-based deploys, pre-deploy backups, smoke tests, security scans and accessibility gates',
+      'Security hardening and observability: security headers, upload virus scanning, an API attack-surface review, and New Relic monitoring with an NFR dashboard',
     ],
   },
   {
     id: 13,
     client: 'EU Pharmaceutical Group (under NDA)',
     title: 'Enterprise RAG Patient-Assistant Copilot',
-    category: 'Generative AI',
+    category: 'AI Solutions',
     role: 'Solution Architect',
     stack: 'Azure OpenAI, RAG pipeline, vector search, AKS, Entra ID',
     duration: '4 months',

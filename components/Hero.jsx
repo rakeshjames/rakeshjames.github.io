@@ -17,7 +17,7 @@ export default function Hero() {
             Shipping
             <br />
             <span className="bg-gradient-to-r from-teal-300 via-cyan-200 to-orange-300 bg-clip-text text-transparent">
-              Multi-Agent AI Systems
+              Agentic AI Systems
             </span>
           </h1>
 
@@ -73,7 +73,7 @@ export default function Hero() {
             {[
               { label: 'Years Delivering', value: '17+' },
               { label: 'Enterprise Clients', value: '40+' },
-              { label: 'Enterprise AI Platforms (GenAI & Multi-Agent)', value: '2' },
+              { label: 'Enterprise AI Platforms Delivered', value: '2' },
               { label: 'Global Open-Source Contributor', value: 'Top 30' },
             ].map((item) => (
               <div key={item.label} className="rounded-xl border border-white/10 bg-white/5 px-4 py-3 flex items-center justify-between">
