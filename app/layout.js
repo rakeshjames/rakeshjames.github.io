@@ -13,7 +13,7 @@ export const metadata = {
   keywords: [
     'Agentic AI', 'Multi-Agent Systems', 'AI Orchestration', 'Amazon Bedrock',
     'AgentCore', 'Bedrock Guardrails', 'Knowledge Bases', 'MCP', 'Model Context Protocol',
-    'LLM Evaluation', 'Semantic Routing', 'Terraform', 'AWS', 'Azure OpenAI',
+    'LLM Evaluation', 'Semantic Routing', 'Terraform', 'Bicep', 'AWS', 'Azure OpenAI',
     'Microsoft Graph', 'OBO', 'AI Security', 'Hands-on Architect',
     'AI Solution Architect', 'Solution Architect', 'Drupal Architect', 'AI Integration', 'Headless CMS',
     'API Platform', 'Apigee', 'Next.js', 'React', 'RAG', 'LLM', 'Azure',
