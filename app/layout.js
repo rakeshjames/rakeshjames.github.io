@@ -6,12 +6,16 @@ const SITE_URL = 'https://rakeshjames.github.io'
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${siteConfig.name} — Solution Architect · AI, Drupal & API Platforms`,
+    default: `${siteConfig.name} — AI Solution Architect · Agentic AI, Multi-Agent & Secure Cloud`,
     template: `%s — ${siteConfig.name}`,
   },
   description: siteConfig.tagline,
   keywords: [
-    'Solution Architect', 'Drupal Architect', 'AI Integration', 'Headless CMS',
+    'Agentic AI', 'Multi-Agent Systems', 'AI Orchestration', 'Amazon Bedrock',
+    'AgentCore', 'Bedrock Guardrails', 'Knowledge Bases', 'MCP', 'Model Context Protocol',
+    'LLM Evaluation', 'Semantic Routing', 'Terraform', 'AWS', 'Azure OpenAI',
+    'Microsoft Graph', 'OBO', 'AI Security', 'Hands-on Architect',
+    'AI Solution Architect', 'Solution Architect', 'Drupal Architect', 'AI Integration', 'Headless CMS',
     'API Platform', 'Apigee', 'Next.js', 'React', 'RAG', 'LLM', 'Azure',
     'Contract Architect', 'Remote Contractor', 'Rakesh James', 'Northwich UK',
     'Drupal 10', 'Symfony', 'Cyber Essentials', 'Entra ID',
@@ -22,13 +26,13 @@ export const metadata = {
     type: 'website',
     url: SITE_URL,
     siteName: `${siteConfig.name} Portfolio`,
-    title: `${siteConfig.name} — Solution Architect · AI, Drupal & API Platforms`,
+    title: `${siteConfig.name} — AI Solution Architect · Agentic AI, Multi-Agent & Secure Cloud`,
     description: siteConfig.tagline,
     locale: 'en_GB',
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${siteConfig.name} — Solution Architect`,
+    title: `${siteConfig.name} — AI Solution Architect`,
     description: siteConfig.tagline,
     creator: '@rakeshjames',
   },
@@ -56,6 +60,8 @@ const jsonLd = {
     siteConfig.drupal,
   ],
   knowsAbout: [
+    'Agentic AI', 'Multi-Agent Systems', 'Amazon Bedrock AgentCore', 'Model Context Protocol',
+    'LLM Evaluation', 'Terraform', 'AI Security',
     'Solution Architecture', 'Drupal', 'Apigee', 'AI Integration',
     'Headless CMS', 'React', 'Next.js', 'API Platforms', 'Azure', 'LLM', 'RAG',
   ],

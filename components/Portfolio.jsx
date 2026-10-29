@@ -14,9 +14,9 @@ export default function Portfolio() {
       <div className="max-w-6xl mx-auto">
         <div className="mb-14">
           <p className="eyebrow mb-3">Recent Projects</p>
-          <h2 className="section-heading">Real clients. Real outcomes.</h2>
+          <h2 className="section-heading">AI systems, built and secured.</h2>
           <p className="section-sub">
-            A focused view of projects where I owned architecture, delivery, or both — across Solution Architecture, API platforms, and headless web.
+            Agentic and generative AI work first, then the API and platform foundations behind it. Each project is one where I owned the architecture, the delivery, or both.
           </p>
         </div>
 
@@ -77,6 +77,20 @@ export default function Portfolio() {
               </p>
 
               <p className="text-slate-300/90 leading-relaxed">{item.description}</p>
+
+              {item.highlights && (
+                <ul className="mt-4 space-y-2 list-disc pl-5 marker:text-teal-300">
+                  {item.highlights.map((point) => (
+                    <li key={point} className="text-sm text-slate-300/90 leading-relaxed">{point}</li>
+                  ))}
+                </ul>
+              )}
+
+              {item.outcome && (
+                <p className="mt-4 text-sm text-slate-200 leading-relaxed">
+                  <span className="text-slate-400">Outcome:</span> {item.outcome}
+                </p>
+              )}
             </article>
           ))}
         </div>

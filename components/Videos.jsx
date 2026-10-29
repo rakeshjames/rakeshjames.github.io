@@ -16,32 +16,32 @@ const experienceYears = `${getExperienceYears()}+`
 const stats = [
   { value: experienceYears, label: 'Years delivering' },
   { value: '10+', label: 'Enterprise contracts' },
-  { value: '15+', label: 'Open-source modules' },
-  { value: 'Top 30', label: 'Global Drupal contributor' },
+  { value: '2', label: 'Enterprise AI platforms' },
+  { value: 'Top 30', label: 'Global open-source contributor' },
 ]
 
 const strengths = [
   {
-    title: 'Speed to value',
-    body: 'AI and headless features shipped in weeks, not months — with the architecture to scale them.',
+    title: 'Hands-on, not just diagrams',
+    body: 'I design the multi-agent topology, then write the runtime, the RAG pipeline and the Terraform myself.',
     gradient: 'from-teal-400/20 to-teal-400/0',
     accent: 'bg-teal-400',
   },
   {
-    title: 'End-to-end ownership',
-    body: 'From blank whiteboard to production deployment. I own the outcome, not just a ticket.',
+    title: 'Evaluation before cut-over',
+    body: 'Routing measured before and after every change, replay harnesses against the old path, and safety parity proved before an agent goes live.',
     gradient: 'from-orange-400/20 to-orange-400/0',
     accent: 'bg-orange-400',
   },
   {
-    title: 'Enterprise-grade delivery',
-    body: 'Azure Foundry, Acquia and Pantheon Cloud, Azure Logic Apps, API proxies, and Azure Entra ID — enterprise delivery patterns baked in from day one.',
+    title: 'Secure by design',
+    body: 'Agent identity, token scopes and data isolation reviewed from the code, not the docs. Least-privilege, time-boxed access and production kept read-only.',
     gradient: 'from-violet-400/20 to-violet-400/0',
     accent: 'bg-violet-400',
   },
   {
-    title: 'Cross-sector credibility',
-    body: 'Financial services, pharma, logistics, retail, public sector, global NGOs — patterns that work, applied with context.',
+    title: 'Enterprise-grade delivery',
+    body: 'AWS Bedrock AgentCore, Azure AI Foundry, Terraform and reviewed PRs with plan evidence, across public sector, pharma, financial services and retail.',
     gradient: 'from-sky-400/20 to-sky-400/0',
     accent: 'bg-sky-400',
   },
@@ -57,7 +57,7 @@ export default function Videos() {
           <p className="eyebrow mb-3">Experience</p>
           <h2 className="section-heading">{experienceYears} years of architecture &amp; delivery.</h2>
           <p className="section-sub">
-            Independent Solution Architect across financial services, pharma, public sector, retail, and global media — owning architecture, delivery, and outcomes end-to-end.
+            Independent AI Solution Architect across public sector, pharma, financial services, retail, and global media — owning architecture, delivery, and outcomes end-to-end.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export default function Videos() {
 
         {/* Summary prose */}
         <p className="text-slate-200 text-xl leading-relaxed max-w-3xl mb-16">
-          I bridge the gap between business intent and technical delivery. As a senior independent Solution Architect, I take ownership of the full stack — architecture decisions, stakeholder alignment, team direction, and shipped outcomes.
+          I bridge the gap between business intent and technical delivery. As a hands-on AI Solution Architect, I take ownership of the full stack — agent architecture, evaluation, security, stakeholder alignment, and shipped outcomes.
         </p>
 
         {/* Strength cards — borderless, gradient accent */}

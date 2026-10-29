@@ -26,7 +26,7 @@ export default function About() {
         {/* Text column */}
         <div>
           <p className="eyebrow mb-3">About Me</p>
-          <h2 className="section-heading mb-6">Architecture that<br />actually ships</h2>
+          <h2 className="section-heading mb-6">AI architecture that<br />actually ships</h2>
           <p className="text-slate-200 text-lg leading-relaxed mb-8">{aboutText}</p>
 
           <div className="space-y-3 mb-8">
@@ -39,7 +39,7 @@ export default function About() {
           <div className="grid grid-cols-3 gap-6 mb-8">
             {[
               { value: '17+', label: 'Years Delivering' },
-              { value: 'Top 30', label: 'Global Drupal Contributor' },
+              { value: '2', label: 'Enterprise AI Platforms' },
               { value: '40+', label: 'Enterprise Clients' },
             ].map(stat => (
               <div key={stat.label} className="text-center p-4 glass">

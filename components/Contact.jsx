@@ -11,7 +11,7 @@ export default function Contact() {
         <p className="eyebrow mb-3">Get In Touch</p>
         <h2 className="section-heading mb-6">Let's Build It Right</h2>
         <p className="text-slate-300/85 text-lg leading-relaxed mb-10 max-w-xl mx-auto">
-          If you are planning a new product or modernizing an existing one, I can help design and deliver an AI-enabled application that is faster, efficient, and secure.
+          If you are planning an AI agent, a copilot or a multi-agent platform, or need an independent security review of one, I can help design, build and assure it.
         </p>
         <p className="text-slate-400 text-sm leading-relaxed max-w-2xl mx-auto">
           Recent examples include {featuredProjects[0]} and {featuredProjects[1]}.

@@ -124,7 +124,7 @@ export default function Blogs() {
           <p className="eyebrow mb-3">Writing</p>
           <h2 className="section-heading">Thoughts &amp; articles.</h2>
           <p className="section-sub">
-            Notes on architecture, AI-augmented development, Drupal, and the craft of building digital products.
+            Notes on AI architecture, agentic systems, AI-augmented development, and the craft of building digital products.
           </p>
         </div>
 
