@@ -13,7 +13,7 @@ export const siteConfig = {
   email: 'rakeshjames20@gmail.com',
   mobile: '+447380804640',
   location: 'Northwich, UK',
-  resumeFile: 'https://drive.google.com/file/d/17zZDMKnKt9q-tFeiJaz4wDuDxRGKs6jA/view?usp=sharing',
+  resumeFile: '/rakesh-james-ai-solution-architect-cv.pdf',
 
   // Contract availability — surfaced in Hero & About
   availability: {
