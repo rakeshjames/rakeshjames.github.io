@@ -166,7 +166,7 @@ export const projectPortfolio = [
     category: 'Agentic AI',
     role: 'Hands-on Solution Architect / AI Platform Engineer',
     stack: 'AWS Bedrock AgentCore Runtime, Amazon Bedrock (Converse, Guardrails, Knowledge Bases), OpenSearch Serverless, Terraform, Python 3.13, TypeScript / Node 24, Lambda, EventBridge Scheduler, Cognito, Amplify, S3, CloudWatch, KMS, GitHub Actions',
-    duration: 'Sep 2026 – present',
+    duration: '3 months',
     description: 'Moved a standalone citizen-facing GenAI assistant into a hub-and-spoke multi-agent orchestrator, where the hub routes each conversation to one of several specialist agents. Delivered in three phases: rebuild the assistant\'s whole estate as code, make it a first-class agent in the hub, then give non-technical staff self-service content management.',
     highlights: [
       'Re-architected the agent onto Bedrock AgentCore Runtime after Bedrock Agents closed to new accounts — a small Python service on Converse, ApplyGuardrail and Knowledge Base Retrieve, with per-turn time budgets and explicit stop reasons',
@@ -185,7 +185,7 @@ export const projectPortfolio = [
     category: 'Agentic AI',
     role: 'Solution / Security Architect (review and assurance)',
     stack: 'Multi-agent swarm (gateway + domain sub-agents over MCP), Microsoft Graph (OBO / delegated tokens), Entra ID, Cognito, AWS Lambda / SAM, API Gateway, OpenSearch hybrid search, DynamoDB, Neptune, ElastiCache, Bedrock',
-    duration: 'Oct 2026',
+    duration: '2 months',
     description: 'Independent architecture, access-control and security review of a workforce AI assistant. A hub orchestrator calls a knowledge-swarm agent: a gateway that validates, routes and demotes tokens, then fans out to mail, calendar, OneDrive/SharePoint, Teams, knowledge (RAG) and graph sub-agents over MCP.',
     highlights: [
       'Documented the architecture traced from the code, not the docs: components, end-to-end request sequence, ingestion and sync, and trust boundaries',
